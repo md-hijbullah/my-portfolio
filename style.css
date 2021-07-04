@@ -64,6 +64,35 @@ h2{
     margin-right: 200px;
     margin-left: 10px;
 }
+.dev{
+    padding-left: 0;
+    font-size: 30px;
+}
 .experienced{
-
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10px;
+}
+.exp-pic{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+ 
+}
+#web{
+    border-image: linear-gradient(rgb(255, 0, 179),rgb(89, 71, 255));
+    border-left: 10px solid;
+    border-image-slice: 1;
+}
+#wev{
+    border-image: linear-gradient(rgb(111, 0, 255),rgb(71, 255, 194));
+    border-left: 10px solid;
+    border-image-slice: 1;
+}
+footer{
+   text-align: center;
 }
